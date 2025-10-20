@@ -1,0 +1,14 @@
+{
+  "version": "3.9",
+  "services": {
+    "lagerverwaltung": {
+      "image": "ghcr.io/johael/lagerverwaltung:v1.0.0-beta",
+      "container_name": "lagerverwaltung",
+      "ports": ["4000:4000"],
+      "restart": "unless-stopped",
+      "environment": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
