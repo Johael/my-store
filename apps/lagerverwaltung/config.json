@@ -2,6 +2,7 @@
   "id": "lagerverwaltung",
   "name": "Lagerverwaltung Eventtechnik",
   "version": "1.0.0-beta",
+  "available": true,
   "port": 4000,
   "description": "Webbasierte Lagerverwaltung für Veranstaltungstechnik mit Barcode, Auftragsmanagement, PDF-Packlisten und Kalender.",
   "image": "ghcr.io/johael/lagerverwaltung:v1.0.0-beta",
