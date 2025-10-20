@@ -7,4 +7,8 @@
   "description": "Webbasierte Lagerverwaltung für Veranstaltungstechnik mit Barcode, Auftragsmanagement, PDF-Packlisten und Kalender.",
   "image": "ghcr.io/johael/lagerverwaltung:v1.0.0-beta",
   "type": "app"
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
 }
